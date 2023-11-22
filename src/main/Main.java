@@ -117,7 +117,7 @@ public class Main {
 
         colorButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                Color newColor = JColorChooser.showDialog(frame, "Choose a color", polygonColor); // cool but like super cool built in swing dialogue
+                Color newColor = JColorChooser.showDialog(frame, "Choose a color", polygonColor); // cool built in swing dialogue
                 if (newColor != null) {
                     polygonColor = newColor;
                 }
